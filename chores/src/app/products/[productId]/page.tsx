@@ -1,11 +1,11 @@
 export default function ProductDetails({ params }: {
     params: {
-        productid: string
-    };
+        productId: string
+    }
 }) {
     return (
         <div>
-            <h1>Details about product { params.productid }</h1>
+            <h1>Details about product { params.productId }</h1>
         </div>
     );
 }
