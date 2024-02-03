@@ -6,12 +6,12 @@ export default function ReviewsList({ params }: {
         reviewsId: string
     }
 }) {
-    if (params.reviewsId > "100") {
-        return notFound();
-    }
+    // if (params.reviewsId > "100" ) {
+    //     return notFound();
+    // }
     return (
         <div>
-            <h1>Review { params.reviewsId } for product { params.productId }</h1>
+            <h1>product { params.productId }, Review { params.reviewsId }</h1>
         </div>
     );
 }
